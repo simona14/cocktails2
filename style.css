@@ -1,0 +1,69 @@
+:root {
+   background-color: grey;
+   color: ivory;
+   font-family: 'Josefin Sans', sans-serif;
+   /* font-family: 'Satisfy', cursive; */
+   /* font-family: 'Srisakdi', cursive; */
+   /* font-family: 'Cantarell', sans-serif; */
+   /* font-family: 'Lobster Two', cursive; */
+   /* font-family: 'Turret Road', cursive; */
+   font-size: 2rem;
+}
+
+body {
+   margin: 0;
+}
+
+#main-title {
+   display: block;
+   margin: 1em;
+   text-align: center;
+   font-weight: bold;
+   font-size: 2rem;
+   border: 1px dashed greenyellow;
+   padding: .5em;
+}
+
+#sub-title {
+   margin: 1em;
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.3rem;
+   border: 5px double ivory;
+   margin: 0 1.5em;
+   padding: .5em;
+
+}
+
+#main-container {
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   padding: 1em 1em;
+}
+
+#cocktail-list {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: auto;
+   gap: 50px;
+}
+
+.card {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+   border: 1px dashed greenyellow;
+
+}
+
+.card > h3 {
+   font-size: 1rem;
+   font-family: 'Satisfy', cursive;
+}
+
+.card > img {
+   width: 80%;
+}
